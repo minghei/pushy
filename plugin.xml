@@ -11,8 +11,8 @@
         <platform name="android">
             <config-file target="config.xml" parent="/*">
                   <feature name="CDVPlushyMePlugin">
-                                <param name="android-package" value="com.ospicon.pushy.CDVPlushyMePlugin"/>
-                     </feature>
+                    <param name="android-package" value="com.ospicon.pushy.CDVPlushyMePlugin"/>
+                  </feature>
             </config-file>
             <source-file src="src/android/CDVPlushyMePlugin.java" target-dir="src/com/ospicon/pushy"/>
             <source-file src="src/android/PushReceiver.java" target-dir="src/com/ospicon/pushy"/>
