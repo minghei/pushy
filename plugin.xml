@@ -1,10 +1,10 @@
    <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="com.ospicon.pushy" version="0.2.3">
+            id="com.ospicon.pushy" version="1.0.0">
         <name>Pushy</name>
         <description>Cordova Pushy Plugin</description>
         <license>Apache 2.0</license>
-        <keywords>cordova,pushyme</keywords>
+        <keywords>pushyme</keywords>
         <js-module src="pushyme.js" name="pushme">
             <clobbers target="window.pushyMeTokenID" />
         </js-module>

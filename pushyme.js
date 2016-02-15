@@ -1,4 +1,4 @@
-cordova.define("com-lokesh-pushyme-plugin", function(require, exports, module) { 
+cordova.define("com.ospicon.pushy", function(require, exports, module) { 
 var exec = require('cordova/exec');
 
 var pushyMeTokenID = function(callbacksucess,callbackfail) {
