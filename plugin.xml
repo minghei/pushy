@@ -5,7 +5,7 @@
         <description>Pushy Plugin</description>
         <license>Apache 2.0</license>
         <keywords>pushyme</keywords>
-        <js-module src="www.pushyme.js" name="pushme">
+        <js-module src="www/pushyme.js" name="pushme">
             <clobbers target="window.pushyMeTokenID" />
         </js-module>
         <platform name="android">
