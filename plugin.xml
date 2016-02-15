@@ -14,7 +14,7 @@
                                 <param name="android-package" value="com.lokesh.CDVpushyMe.plugin.CDVPlushyMePlugin"/>
                      </feature>
             </config-file>
-            <source-file src="src/android/CDVPlushyMePlugin.java" />
-            <source-file src="src/android/PushReceiver.java" />
+            <source-file src="src/android/CDVPlushyMePlugin.java" target-dir="src/com/ospicon/pushy"/>
+            <source-file src="src/android/PushReceiver.java" target-dir="src/com/ospicon/pushy"/>
         </platform>
     </plugin>
