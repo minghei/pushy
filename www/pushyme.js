@@ -9,3 +9,4 @@ module.exports = pushyMeTokenID;
 
 });
 
+console.log("pushy loaded");
