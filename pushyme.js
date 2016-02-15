@@ -6,7 +6,6 @@ var pushyMeTokenID = function(callbacksucess,callbackfail) {
 };
 
 module.exports = pushyMeTokenID;
-
+console.log("pushy loaded");
 });
 
-console.log("pushy loaded");
