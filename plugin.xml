@@ -1,0 +1,20 @@
+   <?xml version="1.0" encoding="UTF-8"?>
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+            id="org.apache.cordova.pushy" version="0.2.3">
+        <name>Pushy</name>
+        <description>Cordova Pushy Plugin</description>
+        <license>Apache 2.0</license>
+        <keywords>cordova,pushyme</keywords>
+        <js-module src="www/pushyme.js" name="pushme">
+            <clobbers target="window.pushyMeTokenID" />
+        </js-module>
+        <platform name="android">
+            <config-file target="config.xml" parent="/*">
+                  <feature name="CDVPlushyMePlugin">
+                                <param name="android-package" value="com.lokesh.CDVpushyMe.plugin.CDVPlushyMePlugin"/>
+                     </feature>
+            </config-file>
+            <source-file src="src/android/CDVPlushyMePlugin.java" />
+            <source-file src="src/android/PushReceiver.java" />
+        </platform>
+    </plugin>
