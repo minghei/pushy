@@ -1,4 +1,4 @@
-package com.ospicon.CDVpushyMe.plugin;
+package com.ospicon.pushy;
 
 import android.content.Context;
 import android.content.SharedPreferences;

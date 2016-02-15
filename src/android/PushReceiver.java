@@ -1,4 +1,4 @@
-package com.ospicon.CDVpushyMe.plugin;
+package com.ospicon.pushy;
 
 import android.app.Notification;
 import android.app.NotificationManager;
